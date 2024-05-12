@@ -1,3 +1,7 @@
 .footer {
-  color: white;
+  font-family: Inter, sans-serif;
+  color: #545454;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
 }
