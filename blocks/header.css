@@ -4,3 +4,21 @@
   max-width: 880px;
   border-bottom: 1px solid #545454;
 }
+
+.header__logo {
+  padding-bottom: 37px;
+}
+
+@media screen and (max-width: 633px) {
+  .header {
+    margin: 0;
+  }
+
+  .header__logo {
+    margin-top: 28px;
+    margin-left: 27px;
+    max-width: 126px;
+    max-height: 24px;
+    padding-bottom: 32px;
+  }
+}
