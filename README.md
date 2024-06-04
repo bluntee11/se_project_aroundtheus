@@ -24,5 +24,6 @@ In this project I utilized the following technologies:
 I think this project could be improved by adding a feature for users to customize the way their profile looks and also creating a design for this webpage that is more fitting for what the use is. It's about social connection between outdoor adventures and the deisgn right now is very black, industrial, boring and unwelcoming to use. I would improve this by putting thought into the design of the webpage based on it's purpose and the types of users it's trying to appeal to.
 
 **Github Pages Deployment**
+https://bluntee11.github.io/se_project_aroundtheus/
 
 **Screencast of Project Walkthrough**
