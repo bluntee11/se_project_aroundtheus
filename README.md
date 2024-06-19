@@ -27,3 +27,4 @@ I think this project could be improved by adding a feature for users to customiz
 https://bluntee11.github.io/se_project_aroundtheus/
 
 **Screencast of Project Walkthrough**
+https://drive.google.com/file/d/1Pl0fz6WznMailIwTV_KBGqXENTCLFvdc/view?usp=drive_link
