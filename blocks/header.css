@@ -1,7 +1,7 @@
 .header {
   margin-top: 45px;
   max-width: 880px;
-  border-bottom: 1px solid rgba(84, 84, 84, 100%);
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }
 
 .header__logo {
@@ -14,7 +14,7 @@
   }
 
   .header__logo {
-    margin: 28px 167px 32px 27px;
+    margin: 28px 0 32px 27px;
     width: 126px;
     height: 24px;
   }

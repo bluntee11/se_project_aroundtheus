@@ -65,10 +65,6 @@
   transition: opacity 0.2s ease;
 }
 
-.profile page__section {
-  border: none;
-}
-
 .profile__edit-button:hover {
   opacity: 0.6;
 }
@@ -120,7 +116,6 @@
   }
 
   .profile__info {
-    display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
