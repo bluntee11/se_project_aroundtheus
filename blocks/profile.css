@@ -121,17 +121,6 @@
     justify-content: center;
   }
 
-  /* I do understand that best practice is making code as simple and clean as possible especially for much bigger projects with much more code
-  for example using margin in shorthand verision or not duplicating styles that are already stated above. I do think the instances in my code that
-  have these are worth noting a "could be improved" comment. But I am writing these duplicates like this on purpose because sprint 3 did a very 
-  poor job teaching these concepts and it has been a very big struggle to learn and try to practice them. I am still at the begining of this program 
-  and find that the readability and understanding of my code for my learning is much better when I can write things in the longer verision or be 
-  redunant in situaitons like this. Inherited styles are still something I am struggling with and I do not like searching and getting lost through my 
-  lines of code to figure out where a certain element is getting a style from that has not been stated in the selector I am working on. So writing them 
-  this way is helping me cement these concepts as I go. When I go back to look at these I am struggling to read and remember what is where without 
-  these long hand or duplicated stated styles. As long as it does not affect the design or functionality of the requirements for the project I don't 
-  feel continuing to not pass me for code reviews is appropriate or fair due to a difference in preference of code writing styles.
-  */
   .profile__title {
     font-size: 22px;
     line-height: 1.21;
