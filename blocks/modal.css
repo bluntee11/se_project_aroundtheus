@@ -56,7 +56,7 @@
   align-items: center;
 }
 
-.modal__input--name {
+.modal__input-name {
   height: 27px;
   max-width: 358px;
   width: 100%;
@@ -67,7 +67,7 @@
   text-align: start;
 }
 
-.modal__input--description {
+.modal__input-description {
   height: 27px;
   max-width: 358px;
   width: 100%;
@@ -135,11 +135,11 @@ input::-ms-input-placeholder {
     font-size: 18px;
     line-height: 22px;
   }
-  .modal__input--name {
+  .modal__input-name {
     width: 238px;
   }
 
-  .modal__input--description {
+  .modal__input-description {
     width: 238px;
   }
 
