@@ -32,10 +32,8 @@ const profileEditModal = document.querySelector("#profile-edit-modal");
 const closeButton = document.querySelector("#profile-modal-close");
 const profileName = document.querySelector(".profile__name");
 const profileDescription = document.querySelector(".profile__description");
-const profileNameInput = document.querySelector("#form-input-name");
-const profileDescriptionInput = document.querySelector(
-  "#form-input-description"
-);
+const profileNameInput = document.querySelector("[name='title']");
+const profileDescriptionInput = document.querySelector("[name='description']");
 const profileEditForm = profileEditModal.querySelector(".modal__form");
 const cardListElement = document.querySelector(".cards__list");
 const cardTemplate =
@@ -54,6 +52,8 @@ function getCardElement(cardData) {
   /*access the card title and image and store them in variables*/
   const cardImageElement = cardElement.querySelector(".card__image");
   const cardTitleElement = cardElement.querySelector(".card__title");
+  const cardDescriptionElement =
+    cardElement.querySelector(".card__description");
 
   /*set the path to the image to the link field of the object*/
   cardImageElement.src = cardData.link;
@@ -63,6 +63,9 @@ function getCardElement(cardData) {
 
   /*set the card title to the name field of the object, too*/
   cardTitleElement.textContent = cardData.name;
+
+  /*append the card title to the card description*/
+  cardDescriptionElement.appendChild(cardTitleElement);
 
   /*return the ready HTML element with the filled-in data*/
   return cardElement;
@@ -92,18 +95,4 @@ profileEditForm.addEventListener("submit", handleProfileEditSubmit);
 initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
   cardListElement.append(cardElement);
-});
-
-console.log({
-  profileEditButton,
-  profileEditModal,
-  closeButton,
-  profileEditForm,
-  profileName,
-  profileDescription,
-  profileNameInput,
-  profileDescriptionInput,
-  cardListElement,
-  initialCards,
-  cardTemplate,
 });

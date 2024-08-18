@@ -56,7 +56,7 @@
   align-items: center;
 }
 
-.modal__input-name {
+.modal__input {
   height: 27px;
   max-width: 358px;
   width: 100%;
@@ -65,24 +65,19 @@
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   text-align: start;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 14px;
 }
 
-.modal__input-description {
-  height: 27px;
-  max-width: 358px;
-  width: 100%;
+.modal__input:first-of-type {
+  margin-top: 0;
+}
+
+.modal__input:last-of-type {
   margin-top: 30px;
-  padding: 0;
-  border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  text-align: start;
 }
 
-.form__input-name:focus {
-  outline: none;
-}
-
-.form__input-description:focus {
+.modal__input:focus {
   outline: none;
 }
 
@@ -135,11 +130,8 @@ input::-ms-input-placeholder {
     font-size: 18px;
     line-height: 22px;
   }
-  .modal__input-name {
-    width: 238px;
-  }
 
-  .modal__input-description {
+  .modal__input {
     width: 238px;
   }
 
